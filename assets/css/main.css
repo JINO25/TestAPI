@@ -1,0 +1,137 @@
+* {
+    /* background-color: rgb(11, 19, 30, 1); */
+    box-sizing: inherit;
+    list-style: none;
+}
+
+html {
+    /* 16px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.app {
+    background-color: rgb(11, 19, 30, 1);
+    /* height: 730px; */
+    height: 100vh;
+}
+
+.input {
+    background-color: #202b3b;
+    width: 580px;
+    height: 36px;
+    border-radius: 13px;
+    border: none;
+    font-size: 12px;
+    color: aliceblue;
+}
+
+.contain {
+    display: flex;
+}
+
+
+
+.view-weather {
+    display: flex;
+    justify-content: space-around;
+    margin: 6px 10px;
+}
+
+.view-weather-info {
+    font-size: 30px;
+    color: #dde0e4;
+}
+
+.view-weather-infor {
+    padding-top: 114px;
+    color: #dde0e4;
+    font-size: 36px;
+}
+
+.view-weather_img img {
+    height: 200px;
+    width: 205px;
+    scale: 1;
+}
+
+.weather__today {
+    background-color: #202b3b;
+    padding: 6px;
+    margin: 6px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.forecast {
+    display: flex;
+}
+
+.forecast__infor:first-child {
+    border: none;
+}
+
+.forecast__infor {
+    border-left: 1px solid #2b394e;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    height: 136px;
+    width: 100%;
+    color: #9197a0;
+    position: relative;
+}
+
+.weather__condition div {
+    margin: 6px;
+    border-radius: 10px;
+    background-color: #202b3b;
+}
+
+.weather__condition--title {
+    margin: 4px;
+}
+
+.condition__infor {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.condition__name {
+    color: #9197a0;
+    font-size: 20px;
+
+}
+
+.condition-attribute {
+    padding: 6px 12px;
+}
+
+.title {
+    text-align: center;
+    padding: 8px 0;
+    color: #9399a2;
+    background-color: #202b3b;
+    border-radius: 10px;
+}
+
+.day_infor {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #253143;
+    margin: 0 18px;
+}
+
+.day_infor:first-child {
+    border: none;
+}
+
+.weather img {
+    width: 100px;
+}
